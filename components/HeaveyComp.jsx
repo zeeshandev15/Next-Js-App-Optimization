@@ -1,3 +1,4 @@
+"use client";
 const HeaveyComp = () => {
   const optimize = [
     {

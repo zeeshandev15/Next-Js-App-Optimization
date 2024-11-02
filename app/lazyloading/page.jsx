@@ -1,9 +1,18 @@
+"use client";
 import dynamic from "next/dynamic";
+import { useEffect } from "react";
 
 const HeaveyComp = dynamic(() => import("../../components/HeaveyComp"), {
   loading: () => <p>Loading...</p>,
 });
+
 const LazyLoading = () => {
+  const session = null;
+  useEffect(() => {
+    if (!session) {
+      throw new Error("Must be login to access resources");
+    }
+  }, [session]);
   return (
     <div>
       <section className="text-gray-600 body-font">
