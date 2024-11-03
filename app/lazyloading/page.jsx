@@ -7,7 +7,7 @@ const HeaveyComp = dynamic(() => import("../../components/HeaveyComp"), {
 });
 
 const LazyLoading = () => {
-  const session = null;
+  const session = "reg";
   useEffect(() => {
     if (!session) {
       throw new Error("Must be login to access resources");
