@@ -1,24 +1,6 @@
 import Link from "next/link";
-
+import { optimize } from "@/lib/constants";
 const Home = () => {
-  const optimize = [
-    {
-      title: "Speed up your Website with Next.js Dynamic Import Lazy Loading",
-      url: "/lazyloading",
-    },
-    {
-      title: "Fetching Dynamic Data",
-      url: "/products",
-    },
-    {
-      title: "Speed up your Website with Next.js Dynamic Import Lazy Loading",
-      url: "/lazyloading",
-    },
-    {
-      title: "Speed up your Website with Next.js Dynamic Import Lazy Loading",
-      url: "/lazyloading",
-    },
-  ];
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">

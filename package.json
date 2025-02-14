@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongoose": "^8.10.0",
     "next": "^15.0.2",
     "react": "^19.0.0-rc-b7e21579-20241031",
     "react-dom": "^19.0.0-rc-b7e21579-20241031",
